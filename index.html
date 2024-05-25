@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food&restraurant-website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font-awesome-link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script> -->
+</head>
+
+<body>
+    <!-- header-section -->
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Food HUB</h1>
+            </div>
+            <div class="input">
+                <input type="text" id="inp" placeholder="Search Here..." onkeyup="myFun()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="icon">
+                <i onclick="login()" class="fas fa-user"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i onclick="nav()" class="fas fa-bars"></i>
+            </div>
+        </nav>
+        <!-- login section-->
+        <div class="login">
+            <h2>Log in</h2>
+            <input type="text" placeholder="Enter Your Name">
+            <input type="password" placeholder="Enter Your password">
+            <button>Log In</button>
+        </div>
+        <!-- nav-bar section-->
+        <div class="nav">
+            <p>Home</p>
+            <p>Foods</p>
+            <p>Blogs</p>
+            <p>Customer's</p>
+        </div>
+
+    </div>
+
+    <!-- Banner-section -->
+    <div class="main">
+        <div class="text">
+            <h1>Simple & Tasty Recipes</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias magni doloribus cum aliquam aperiam
+                consectetur nam sunt eos rem dolorem ab excepturi itaque fugit reprehenderit commodi, nihil ea nemo
+                sequi!</p>
+            <button>Explore More</button>
+        </div>
+        <img src="images/burger (2).png" alt="img">
+    </div>
+
+    <!-- food-cart -->
+
+    <table>
+        <tr>
+            <td>
+                <div class="head">
+                    <h1>Our <span>Foods</span></h1>
+                </div>
+                <div class="crd">
+                    <div class="card">
+                        <img src="images/fds (1).jpg" alt="">
+                        <h2>299 Rupees only</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus.</p>
+                        <button>Order Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/fds (2).jpg" alt="">
+                        <h2>299 Rupees only</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus.</p>
+                        <button>Order Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/fds (4).jpg" alt="">
+                        <h2>299 Rupees only</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+                <div class="crd">
+                    <div class="card">
+                        <img src="images/fds (5).jpg" alt="">
+                        <h2>299 Rupees only</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus.</p>
+                        <button>Order Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/fds (6).jpg" alt="">
+                        <h2>299 Rupees only</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus.</p>
+                        <button>Order Now</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/fds (7).jpg" alt="">
+                        <h2>299 Rupees only</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus.</p>
+                        <button>Order Now</button>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="head">
+                    <h1>Our <span>Blogs</span></h1>
+                </div>
+                <div class="crd">
+                    <div class="blog">
+                        <img src="images/fds (7).jpg" alt="">
+                        <h2>Fact About Indian Food</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus.</p>
+                        <a href="https://www.littleindiaofdenver.com/blog/7-facts-you-never-knew-about-indian-food/">Read
+                            More</a>
+                    </div>
+                    <div class="blog">
+                        <img src="images/fds (8).jpg" alt="">
+                        <h2>Different Type of Burger</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus.</p>
+                        <a href="https://www.finedininglovers.com/article/burger-types-famous-to-make">Read More</a>
+                    </div>
+                    <div class="blog">
+                        <img src="images/fds (6).jpg" alt="">
+                        <h2>Delicious Checken </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, temporibus.</p>
+                        <a href="https://themodernproper.com/60-best-chicken-breast-recipe">Read More</a>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Customer-review -->
+
+    <div class="head">
+        <h1>Customer <span>Review</span></h1>
+    </div>
+    <div class="review">
+        <div class="customer">
+            <img src="images/men (1).jpg" alt=""><br>
+            <h2>Jhon Duo</h2>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit voluptas nam at assumenda, est ipsam?
+                Lorem, ipsum dolor.</p>
+        </div>
+        <div class="customer">
+            <img src="images/men (2).jpg" alt=""><br>
+            <h2>Jhon Duo</h2>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit voluptas assumenda, est ipsam? nam at
+                assumenda, est ipsam?</p>
+        </div>
+        <div class="customer">
+            <img src="images/men (3).jpg" alt=""><br>
+            <h2>Jhon Duo</h2>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit voluptas nam at assumenda, est ipsam?</p>
+        </div>
+
+    </div>
+    <div class="btn">
+        <button onclick="pre()">Prev</button>
+        <button onclick="next()">Next</button>
+    </div>
+
+    <!-- footer-section -->
+    <div class="footer">
+        <div class="txt">
+            <h2>About US</h2>
+            <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Nobis, quasi ipsam!</p>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Foods</p>
+        </div>
+        <div class="txt">
+            <h2>About US</h2>
+            <p>Product</p>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Foods</p>
+        </div>
+        <div class="txt">
+            <h2>About US</h2>
+            <p>Near</p>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Foods</p>
+        </div>
+        <div class="txt">
+            <h2>About US</h2>
+            <p>Website</p>
+            <p>Service</p>
+            <p>Customer</p>
+            <p>Foods</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
